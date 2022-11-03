@@ -129,5 +129,5 @@ form.form {
 .card.checked {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
-	transition: .3s;
+  transition: .3s;
 }
