@@ -1,0 +1,133 @@
+/*********************RESET**********************/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/*********************WRAPPERS**********************/
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*********************MAIN**********************/
+
+main {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+form.form {
+	padding: 20px 60px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+	margin-bottom: 5px;
+}
+
+.inputState {
+	padding: 10px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+	margin-right: 15px;
+}
+
+.inputState:focus {
+	outline: none;
+}
+
+.searchButton {
+	padding: 10px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+	cursor: pointer;
+}
+
+.searchButton:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+	transition: .2s;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 30px 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-top: 25px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.title {
+  width: 100%;
+  font-size: 26px;
+	font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+	padding: 10px;
+}
+
+.text {
+  font-size: 18px;
+	padding: 10px;
+  flex: 1 1 auto;
+}
+
+.check {
+	margin-left: 10px;
+}
+
+.card.checked {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+	transition: .3s;
+}
