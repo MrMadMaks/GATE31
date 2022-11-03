@@ -50,22 +50,22 @@ main {
 h1 {
   font-size: 36px;
   text-align: center;
-	font-weight: 700;
-	margin-bottom: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 form.form {
-	padding: 20px 60px;
-	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  padding: 20px 60px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .inputState {
-	padding: 10px;
-	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-	margin-right: 15px;
+  margin-right: 15px;
 }
 
 .inputState:focus {
@@ -73,23 +73,23 @@ form.form {
 }
 
 .searchButton {
-	padding: 10px;
-	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .searchButton:hover {
-	background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
-	transition: .2s;
+  transition: .2s;
 }
 
 .app {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 30px 60px;
 }
@@ -109,21 +109,21 @@ form.form {
 .title {
   width: 100%;
   font-size: 26px;
-	font-weight: 600;
+  font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-	padding: 10px;
+  padding: 10px;
 }
 
 .text {
   font-size: 18px;
-	padding: 10px;
+  padding: 10px;
   flex: 1 1 auto;
 }
 
 .check {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 .card.checked {
